@@ -1,0 +1,14 @@
+colorTuple = ('blue', 'yellow', 'red', 'white', 'black')
+print("前3种颜色为 : ", colorTuple[:3])
+print("第4到第五颜色为 : ", colorTuple[4:5])
+print("最后3种颜色为 : ", colorTuple[3:])
+tuple2 = ('gray', 'orange')
+colorTuple = colorTuple + tuple2
+print(colorTuple)
+dict = {"中国": "北京", "美国": "华盛顿", "英国": "伦敦"}
+print("中国的首度是: ", dict["中国"])
+dict["泰国"] = "曼谷"
+dict["英国"] = "伦敦市"
+print(dict)
+del dict["美国"]
+print(dict)
